@@ -23,6 +23,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   orderline_dw_dbt:
-    # Config indicated by + and applies to all files under models/example/
-    dm_sales:
+    intermediate:
       +materialized: view
+    dm_sales:
+      +materialized: table
+      schema: dm
+

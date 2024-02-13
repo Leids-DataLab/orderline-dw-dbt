@@ -5,3 +5,9 @@ sources:
     schema: staging
     tables:
       - name: klant
+      - name: product
+      - name: productsubcategorie
+      - name: productcategorie
+      - name: bestelling
+      - name: bestellingregel
+      
