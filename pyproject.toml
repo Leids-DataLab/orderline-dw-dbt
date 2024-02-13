@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "orderline-dw-dbt"
+version = "0.1.0"
+description = ""
+authors = ["Mischa Barthel <barthel.m@hsleiden.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dbt-core = "^1.7.7"
+dbt-sqlserver = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
